@@ -1,0 +1,35 @@
+.container{
+    display: flex
+    /*Valores possíveis principais (row!row-reverse!column-reverse)*/
+    flex-direction: row
+
+    /*Alinha ao centro*/
+    justify-content:space-around
+
+    /*Valores possíveis principais (center!stretch!flex-start!flex-end!baseline)*/
+    align-content: center
+
+    /*flex-start*/
+    /*flex-end*/
+    /*space-around*/
+
+    /*Linhas atribuidas ao longo do eixo transversal, ocupando todo os espaços*/
+    align-content: stretch
+
+    /*Justify-content: space-between;*/
+    flex: wrap
+}
+
+.container2{
+    display: flex
+    flex-direction:row-reverse
+    justify-content: space-evenly
+    flex-wrap: wrap
+    align-items:center
+
+    /*stretch*/
+    /*flex-start*/
+    /*flex-end*/
+    /*baseline*/
+}
+
